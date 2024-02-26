@@ -15,8 +15,7 @@ class Card2 extends StatelessWidget {
         ),
         decoration: const BoxDecoration(
           image: DecorationImage(
-            image: NetworkImage(
-                'https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2023/01/Cranberry-Smoothie-4.jpg'),
+            image: AssetImage('assets/mag5.png'),
             fit: BoxFit.cover,
           ),
           borderRadius: BorderRadius.all(

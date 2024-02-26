@@ -12,7 +12,7 @@ class Card3 extends StatelessWidget {
  height: 450,),
  decoration: const BoxDecoration(
  image: DecorationImage(
- image: NetworkImage('https://www.wcrf-uk.org/wp-content/uploads/2021/06/588595864r-LS.jpg'),
+image: AssetImage('assets/mag2.png'),
  fit: BoxFit.cover,
  ),
  borderRadius: BorderRadius.all(Radius.circular(10.0)),

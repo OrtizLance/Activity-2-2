@@ -26,7 +26,7 @@ class Card1 extends StatelessWidget {
  // 4
  image: DecorationImage(
  // 5
- image: NetworkImage('https://www.thedailymeal.com/img/gallery/baking-tips-every-home-cook-should-know/l-intro-1687884444.jpg'),
+ image: AssetImage('assets/mag1.png'),
  // 6
  fit: BoxFit.cover,
  ),
